@@ -4,15 +4,12 @@
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
     <style>
         .centralizado {
             text-align: center;
         }
-    </style>
 </head>
 <body>
-    <div class="centralizado">
         <h1>Bem vindos ao meu portfolio!🖥🖱</h1>
         <p>Aqui você encontrará algumas informações sobre mim.</p>
     </div>
