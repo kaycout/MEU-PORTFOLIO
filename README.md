@@ -4,8 +4,6 @@
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        }
 </head>
 <body>
         <h1>Bem vindos ao meu portfolio!🖥🖱</h1>
@@ -15,7 +13,6 @@
 </html>
 
 </head>
-<title>Portfolio</title>
 <body>
     <p>
         • Meu portfolio em Html!<br>
