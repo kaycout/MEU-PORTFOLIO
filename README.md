@@ -1,84 +1,92 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-        <h1>Bem vindos ao meu portfolio!🖥🖱</h1>
-        <p>Aqui você encontrará algumas informações sobre mim.</p>
-    </div>
-</body>
-</html>
+# 🌟 Portfólio Pessoal - Kaylane Coutinho
 
-</head>
-<body>
-    <p>
-        • Meu portfolio em Html!<br>
-        • Estou iniciando alguns trabalhinhos simples utilizando HTML e CSS, então essa página é só experimental.
-    </p>
-        <header>
-        <h2>Kaylane Coutinho 🌙 </h2>
-        <nav>
-            <ul>
-                <li><a href="#sobre">Sobre mim</a></li>
-                <li><a href="#habilidades"> Minhas habilidades</a></li>
-                <li><a href="#projetos">Meus projetos</a></li>
-                <li><a href="#contato">Contatos</a></li>
-            </ul>
-        </nav>
-    </header>
+Bem-vindo ao repositório do meu portfólio pessoal! Este projeto foi desenvolvido com o objetivo de apresentar de forma visual e organizada minhas principais competências, experiências, projetos, cursos e formas de contato profissional. Através de um layout moderno, responsivo e acessível, busco oferecer uma navegação agradável tanto em desktop quanto em dispositivos móveis.
 
-    <section id="sobre">
-        <h2>Sobre Mim</h2>
-<p>Oiii :) Se você está no meu perfil e achou meu portfolio, isso é um bom sinal! significa que a seguir irá conhecer um pouquinho sobre mim!
-<p>Prazer! meu nome é Kaylane, mais conhecida como kay. Tenho 18 anos e atualmente sou estudante da área de tecnologia. Faço curso técnico em Informática e ao longo dos anos adquiri algumas hablidades e certificados voltado para área, como;</p>
-			<ul>
-			<li>Informática
-			<li>Inteligência Arficial
-            <li>Programaçao em banco de dados
-            <li>Excel</li>
-			</ul>
-<p>A verdade é que sou apaixonada por tecnologia e ficaria horas aprendendo e colocando em prática coisas que sempre tive vontade de aprender. E hoje estou fazendo isso! </p>
-  <p>Tenho muita vontade de iniciar mais cursos e aprimorar cada vez mais meu aprendizado, porém por enquanto, o meu maior desejo é entrar para a Faculdade e cursar Segurança da Informação para me especializar e trabalhar com pericia criminal voltado para Tecnologia ou em design de web site onde também me identifico bastante!!!</p>
-  
-    </section>
+---
 
-    <section id="habilidades">
-        <h2> Algumas das minhas habilidades técnicas </h2>
-        <ul>
-            <li>Banco de dados</li>
-            <li>Html</li>
-            <li>CSS</li>
-            <li>Python e Java</li>
-			<li>Inglês e Espanhol</li>
-            </ul>
-    </section>
+## 🔎 Sobre o Projeto
 
-    <section id="idiomas">
-    <h2> Idiomas </h2>
-    <ul>
-        <li>Inglês</li>
-        <li>Espanhol</li>
-    </ul>
+Este portfólio é um site estático desenvolvido utilizando **HTML5**, **CSS3** e **JavaScript puro**. Cada seção foi cuidadosamente estruturada para destacar meus diferenciais enquanto profissional da área de tecnologia da informação.
+
+O projeto possui 4 páginas principais:
+
+- **Início (`index.html`)**: Uma introdução simples sobre mim e uma visão geral do portfólio.
+- **Projetos (`projetos.html`)**: Lista com descrições dos principais projetos desenvolvidos, tanto acadêmicos quanto pessoais.
+- **Certificados (`certificados.html`)**: Apresentação dos cursos, formações e certificações obtidas ao longo da minha jornada.
+- **Contato (`contato.html`)**: Links para minhas redes sociais e QR Code para facilitar o acesso mobile.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+| Tecnologia | Descrição |
+|------------|-----------|
+| **HTML5** | Estrutura semântica do site, com foco em acessibilidade. |
+| **CSS3** | Estilização personalizada com responsividade e uso de cores suaves. |
+| **JavaScript (ES6)** | Scripts leves para interação, incluindo renderização de ícones e QR Code. |
+| **Lucide Icons** | Biblioteca open-source para ícones vetoriais modernos. |
+| **API externa de QR Code** | Geração dinâmica de QR Code com base na URL do LinkedIn. |
+
+---
+
+## 📐 Estrutura do Projeto
+portfolio/
+├── index.html
+├── projetos.html
+├── certificados.html
+├── contato.html
+├── css/
+│ ├── base.css
+│ ├── projetos.css
+│ ├── certificados.css
+│ └── contato.css
+├── img/
+│ ├── iconekay2.png
+│ ├── linkedin.png
+│ ├── github.png
+│ ├── instagram.png
+│ └── (demais imagens e certificados)
+└── README.md
 
 
-    <section id="projetos">
-        <h2>Futuro Projeto</h2>
-        <div class="projeto">
-            <h3>Nome do Projeto</h3>
-            <p>Trabalhando em futuro projeto!</p>
-            <a href="[Link para o projeto]">Ver Projeto</a>
-        </div>
-        </section>
+---
 
-    <footer>
-        <p>&copy; by Kaylane Coutinho - 2025, portfolio atualizado.</p>
-        <ul>
-            <li><a href="[www.linkedin.com/kaylane-coutinho-9069a2298]">LinkedIn</a></li>
-            <li><a href="[Lhttps://github.com/kaycout]">GitHub</a></li>
-        </ul>
-    </footer>
-</body>
-</html>
+## 📌 Funcionalidades e Diferenciais
+
+- 🔹 Design 100% responsivo com flexbox e media queries
+- 🔹 Utilização de elementos semânticos e `aria-labels` para melhor acessibilidade
+- 🔹 QR Code gerado dinamicamente para facilitar a abertura em dispositivos móveis
+- 🔹 Layouts organizados em seções, com uso de cores suaves e harmoniosas
+- 🔹 Animações suaves em elementos interativos como hover em botões e imagens
+- 🔹 Código limpo, comentado e modularizado em arquivos separados de CSS
+
+---
+
+## 🎨 Estilo e Experiência do Usuário
+
+- Paleta de cores principal: **rosa, branco, cinza claro**
+- Tipografia suave e legível em todos os dispositivos
+- Caixas com bordas arredondadas e sombras suaves para profundidade
+- Destaques visuais para seções importantes como **projetos** e **habilidades**
+- Ícones dinâmicos e intuitivos com **Lucide**
+
+---
+
+## 📱 QR Code de Acesso
+
+A página de **contato** possui um QR Code visível que permite ao visitante abrir diretamente o portfólio em seu celular, facilitando a navegação em dispositivos móveis.  
+**Exemplo de uso**: leitura do QR via câmera ou app de scanner redireciona para meu LinkedIn.
+
+---
+
+
+📞 Contato
+Entre em contato comigo pelas redes abaixo:
+
+🌐 LinkedIn
+
+💻 GitHub
+
+📸 Instagram
+
+Desenvolvido com 💗 por Kaylane Coutinho
