@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contato</title>
+  <link rel="stylesheet" href="../css/base.css" />
+  <link rel="stylesheet" href="../css/contato.css" />
+  <link rel="icon" href="../img/iconekay2.png" type="image/png" />
+  <script src="https://unpkg.com/lucide@latest" defer></script>
+  <!-- Biblioteca QRCode.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" defer></script>
+  <style>
+    /* Estilo básico para o QR Code */
+    #qrcode-container {
+      margin-top: 2rem;
+      text-align: center;
+    }
+    #qrcode {
+      display: inline-block;
+      padding: 10px;
+      background: #fff0fa;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(214, 51, 132, 0.2);
+    }
+    #qrcode-container p {
+      margin-top: 0.6rem;
+      font-size: 0.9rem;
+      color: #d63384;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <header class="cabecalho">
+    <h1>Fale Comigo 💌</h1>
+    <nav class="menu-links" id="menu" role="navigation" aria-label="Menu principal">
+      <a href="index.html" class="active"><i data-lucide="home"></i> Início</a>
+      <a href="projetos.html"><i data-lucide="code"></i> Projetos</a>
+      <a href="certificados.html"><i data-lucide="book-open"></i> Certificados</a>
+      <a href="contato.html"><i data-lucide="mail"></i> Contato</a>
+    </nav>
+  </header>
+
+  <main class="conteudo" role="main">
+<section>
+  <h2>Minhas Redes</h2>
+  <p>Você pode me encontrar nas seguintes plataformas:</p>
+  <ul>
+    <li><a href="https://github.com/kaycout" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+    <li><a href="https://www.instagram.com/kayccout" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+  </ul>
+
+  <div class="qrcode" aria-label="QR Code para acesso rápido ao LinkedIn">
+    <p>Use seu celular para acessar meu LinkedIn rapidamente:</p>
+    <img
+      src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.linkedin.com/in/kaylane-coutinho-9069a2298/"
+      alt="QR Code para o LinkedIn de Kaylane Coutinho" />
+  </div>
+</section>
+
+  </main>
+
+  <footer>
+    <p>Entre em contato comigo pelas redes sociais</p>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+
+    document.addEventListener("DOMContentLoaded", function() {
+      // URL para o QR Code - pode ser alterada para qualquer link
+      const urlLinkedIn = "https://www.linkedin.com/in/kaylane-coutinho-9069a2298/";
+
+      // Gerar o QR Code
+      new QRCode(document.getElementById("qrcode"), {
+        text: urlLinkedIn,
+        width: 160,
+        height: 160,
+        colorDark: "#d63384",
+        colorLight: "#fff0fa",
+        correctLevel: QRCode.CorrectLevel.H
+      });
+    });
+  </script>
+</body>
+</html>

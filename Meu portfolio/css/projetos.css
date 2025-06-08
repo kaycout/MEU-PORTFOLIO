@@ -1,0 +1,49 @@
+main.conteudo {
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #d63384;
+  text-align: center;
+}
+
+/* Layout em grade para os projetos */
+.projetos-lista {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+/* Card de projeto */
+.card-projeto {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card-projeto:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.card-projeto h3 {
+  margin-top: 0;
+  color: #333;
+  font-size: 1.3rem;
+}
+
+.card-projeto p {
+  color: #555;
+  line-height: 1.5;
+}
